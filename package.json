@@ -1,7 +1,7 @@
 {
   "name": "isla-studio",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/fiber": "^9.0.0",
     "@tailwindcss/vite": "latest",
     "@vitejs/plugin-react": "latest",
     "lucide-react": "^1.59.0",
@@ -16,6 +17,7 @@
     "react": "latest",
     "react-dom": "latest",
     "tailwindcss": "latest",
+    "three": "^0.170.0",
     "vite": "latest"
   }
 }
